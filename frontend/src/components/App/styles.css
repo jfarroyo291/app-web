@@ -1,0 +1,64 @@
+.App {
+    text-align: center;
+    margin: 0 auto;
+    height: 950px;
+  }
+
+  .App-header {
+    background-color: #3c64ac;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  .App-buttons{
+    background-color: #3c64ac;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .App-buttons button{
+    background-color: #3c64ac;
+    border: 1px solid #ccc;
+    padding: 10px;
+    /*margin: 0px 0px 5px;*/
+    color: white;
+    margin-left: .3em;
+    cursor: pointer;
+  }
+
+  .App-buttons button:hover{
+    background-color: #173163;
+  }
+
+  .App-buttons .active{
+    background-color: #173163;
+  }
+
+  form{
+    border-radius: 2px;
+    text-align: center;
+    margin: 24px;
+  }
+
+  form input, select{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    width: 90%;
+  }
+
+  form .btn-group button{
+    align-items: center;
+    justify-content: center;
+    padding: 2px 8px;
+    margin: 5px;
+    cursor: pointer;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+  }

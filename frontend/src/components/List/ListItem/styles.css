@@ -1,0 +1,38 @@
+li{
+    border: 3px solid #eee;
+    border-radius: 7px;
+    margin: 3px;
+    padding: 4px;
+    text-align: left;
+}
+
+li:hover{
+    border: 2px solid rgb(128, 117, 117);
+    background-color: rgb(238, 238, 238);
+    cursor: pointer;
+}
+
+.list-item-logo img{
+    width: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.btn{
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+.list-item-body{
+    margin-bottom: 0px;
+    margin-left: 30px;
+}
+
+.list-item-body p{
+    padding: 0px;
+    margin: 0px;
+}
+
+.list-item-body .name{
+    font-weight: bold;
+}
