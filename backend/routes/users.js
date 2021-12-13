@@ -67,7 +67,7 @@ router.route("/:id")
                 person.updateOne(req.body, (err, person)=>{
                     if(err){
                         resp.status(500)
-                        resp.json({"message":"Error: Not has been updated."})
+                        resp.json({"message":"Error: Not has been updated. OK!!"})
                     }
                     resp.json({
                         "_id":person._id,
@@ -93,7 +93,7 @@ router.route("/:id")
                         })
                     }
                     resp.json({
-                        "message":"Has been deleted",
+                        "message":"Has been deleted. OK!!",
                         "people":person
                     })
                 })
