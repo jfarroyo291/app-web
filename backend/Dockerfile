@@ -1,6 +1,6 @@
-FROM mongo-express
+FROM node:12-slim
 
-EXPOSE 8000
+EXPOSE 3000
 
 WORKDIR /usr/app
 
